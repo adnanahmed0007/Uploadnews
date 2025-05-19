@@ -30,7 +30,7 @@ const Headline = () => {
                 <h1>
                     Search for the Latest headline in the country
                 </h1>
-                {Check ?
+            
                     <div className='data_fetchheadline'>
 
                         <div className='input_headline'>
@@ -78,7 +78,7 @@ const Headline = () => {
                             </div>}
 
                         </div>
-                    </div> : <h1 className='not_login_headline'>Go to the login/Register page</h1>}
+                    </div> 
 
             </div>
 
