@@ -35,7 +35,7 @@ const Search = () => {
     <div className='header_h1'>
     <h1> Serach for the latest news </h1>
     </div>
-    {Check?
+ 
     <div className='input_Search'>
 
     <div className='type_input'>
@@ -94,7 +94,7 @@ const Search = () => {
     </div>
     
     </div>
-    :<h1 className="not_login">Go to regsiter page  for chcek the lates news</h1>}
+     
       
     </div>
   )
