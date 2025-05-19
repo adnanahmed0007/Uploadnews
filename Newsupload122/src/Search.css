@@ -1,0 +1,164 @@
+ /* General styling for the page */
+body {
+    background-color: black; /* Black background */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styling */
+  .header_h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  /* Search input section */
+  .input_Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .type_input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  button.btn_search2 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button.btn_search2:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button.btn_search2:active {
+    background-color: #004085;
+  }
+  
+  /* News content display section */
+  .content {
+    margin-top: 30px;
+  }
+  
+  .data_serch2 {
+    background-color: #222; /* Dark background for each news item */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px; /* Space between image and text */
+    align-items: flex-start; /* Align text with image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and other text styles */
+  .source_h2, .author_search, .title_search, .news_search_content, .description_search, .publish_at, .link_search {
+    margin: 5px 0;
+  }
+  
+  .title_search {
+    font-size: 24px;
+    color: #ff6347; /* Tomato color for title */
+  }
+  
+  .news_search_content {
+    font-size: 16px;
+    color: #dcdcdc;
+  }
+  
+  .description_search {
+    font-size: 16px;
+    color: #b0b0b0;
+  }
+  
+  .publish_at {
+    font-size: 14px;
+    color: #888; /* Lighter gray for publish date */
+    margin-top: 15px;
+  }
+  
+  .link_search a {
+    color: #1e90ff; /* Blue color for the link */
+    text-decoration: none;
+  }
+  
+  .link_search a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image styling */
+  .serch_headline {
+    width: 150px; /* Set a fixed width for the image */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .not_login
+  {
+    font-size: 20px;
+    color: #ff4d4d;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+  }
+  .image_search {
+    margin-top: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .header_h1 {
+      font-size: 28px;
+    }
+  
+    .input_Search {
+      padding: 15px;
+    }
+  
+    input[type="text"], button.btn_search2 {
+      font-size: 14px;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .data_serch2 {
+      flex-direction: column; /* Stack image and content on top of each other on smaller screens */
+      align-items: flex-start;
+    }
+  
+    .data_serch2 img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+  

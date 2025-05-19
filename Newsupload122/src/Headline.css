@@ -1,0 +1,303 @@
+.header_haedline {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  .input_headline {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input_headline input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .input_headline button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input_headline button:hover {
+    background-color: #0056b3;
+  }
+  
+  .datafetchng {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .data_headline {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .data_headline h3 {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .data_headline h2 {
+    text-align: center;
+  }
+  
+  .image_headline {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .headline_source,
+  .author_Headline,
+  .title_headline,
+  .description_Headline,
+  .publish_headline,
+  .link_Headlin {
+    margin: 10px 0;
+  }
+  
+  .headline_source,
+  .author_Headline {
+    font-weight: bold;
+  }
+  
+  .link_Headlin a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link_Headlin a:hover {
+    text-decoration: underline;
+  }
+  
+  .not_login_headline {
+    .header_haedline {
+        text-align: center;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      
+      .input_headline {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .input_headline input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 250px;
+      }
+      
+      .input_headline button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .input_headline button:hover {
+        background-color: #0056b3;
+      }
+      
+      .datafetchng {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+      
+      .data_headline {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 800px;
+        text-align: left;
+      }
+      
+      .data_headline h3 {
+        font-size: 14px;
+        color: #333;
+        margin: 5px 0;
+      }
+      
+      .data_headline h2 {
+        text-align: center;
+      }
+      
+      .image_headline {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+      
+      .headline_source,
+      .author_Headline,
+      .title_headline,
+      .description_Headline,
+      .publish_headline,
+      .link_Headlin {
+        margin: 10px 0;
+      }
+      
+      .headline_source,
+      .author_Headline {
+        font-weight: bold;
+      }
+      
+      .link_Headlin a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      
+      .link_Headlin a:hover {
+        text-decoration: underline;
+      }
+      
+      .not_login_headline {
+        font-size: 20px;
+        color: #ff4d4d;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .datafetchng h1 {
+        text-align: center;
+      }
+.header_haedline {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.input_headline {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input_headline input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.input_headline button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input_headline button:hover {
+  background-color: #0056b3;
+}
+
+.datafetchng {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.data_headline {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.data_headline h3 {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.data_headline h2 {
+  text-align: center;
+}
+
+.image_headline {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.headline_source,
+.author_Headline,
+.title_headline,
+.description_Headline,
+.publish_headline,
+.link_Headlin {
+  margin: 10px 0;
+}
+
+.headline_source,
+.author_Headline {
+  font-weight: bold;
+}
+
+.link_Headlin a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link_Headlin a:hover {
+  text-decoration: underline;
+}
+
+.not_login_headline {
+  font-size: 20px;
+  color: #ff4d4d;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.datafetchng h1 {
+  text-align: center;
+}
+      
+  }
+  
+  .datafetchng h1 {
+    text-align: center;
+  }
+  
